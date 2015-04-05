@@ -1,4 +1,4 @@
 'use strict';
 
-import testx from '../src/index.js';
-export const Testx = testx;
+import test from '../src/index.js';
+export const Test = test;

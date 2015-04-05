@@ -2,16 +2,20 @@
 
 import React from 'react';
 
-// import router from './router';
 //
-// router.run((Handler, state) => {
-//   React.render(<Handler {...state} />, document.body);
-// });
+// Class definition 
+//
 
-// let ComponentX = 
-
-export default React.createClass({
+let Test = React.createClass({
   render() {
     return React.DOM.h1({}, this.props.name)
   }
 });
+
+//
+// Static Properties
+//
+
+Test.displayName = "Test";
+
+export default Test;

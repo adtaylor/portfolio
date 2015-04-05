@@ -93,6 +93,7 @@
 	
 	var React = _interopRequire(_React);
 	
+	//
 	var k = undefined,
 	    v = undefined;
 	window.React = React;
